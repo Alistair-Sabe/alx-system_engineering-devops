@@ -7,3 +7,4 @@ ls -n -a -> current directory contents with long format, user and groups ID, hid
 mkdir -p -> create as directory with condition (-p if doesn't already exists /n
 mv -> move files
 rm -> delete files
+rmdir/rm -d -> delete directory
