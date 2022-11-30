@@ -9,3 +9,4 @@ mv -> move files
 rm -> delete files
 rmdir/rm -d -> delete directory
 cd - -> change to previous directory
+ls -la . .. /directory -> list all files in .current directory ..parent directory and /specified directory
