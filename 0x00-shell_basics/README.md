@@ -8,4 +8,4 @@ mkdir -p -> create as directory with condition (-p if doesn't already exists /n
 mv -> move files
 rm -> delete files
 rmdir/rm -d -> delete directory
-cd .. -> change to previous directory
+cd - -> change to previous directory
