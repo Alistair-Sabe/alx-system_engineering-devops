@@ -18,3 +18,6 @@ chmod 007 _file_ -> permissions only given to other users
 
 chmod 753 _file_ -> change permission 3=no write for other users
 
+chmod --reference=_RFfile_ _file_ -> clone permission from one file to another
+
+
