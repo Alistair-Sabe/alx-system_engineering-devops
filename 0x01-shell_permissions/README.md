@@ -14,6 +14,7 @@ chmod ug+x,o=r -> giver owner and group execute permissions but read permission 
 
 chmod ugo+x -> giver owner,group and others execute permissions to the file
 
-chmod ------rwx -> permissions only given to other users
+chmod 007 _file_ -> permissions only given to other users
 
+chmod 753 _file_ -> change permission 3=no write for other users
 
