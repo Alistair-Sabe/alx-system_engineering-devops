@@ -10,5 +10,5 @@ touch _file_ -> create empty file
 
 chmod u+x -> give user executable permissions
 
-chmod ug+x o=r -> giver owner and group execute permissions but read permission for others
+chmod ug+x,o=r -> giver owner and group execute permissions but read permission for others
 
