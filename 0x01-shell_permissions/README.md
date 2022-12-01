@@ -7,3 +7,5 @@ groups -> groups current user belongs to
 sudo chown _user_ _file_ -> change file ownership
 
 touch _file_ -> create empty file
+
+chmod u+x -> give user executable permissions
