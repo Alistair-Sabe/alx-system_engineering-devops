@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 007 -type d -R
+chmod a+X
