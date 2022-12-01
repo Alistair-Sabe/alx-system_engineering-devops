@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R -type d ugo+x
+find -R -type d -exec chmod 007 {} \;
