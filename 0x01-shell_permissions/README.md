@@ -21,3 +21,5 @@ chmod 753 _file_ -> change permission 3=no write for other users
 chmod --reference=_RFfile_ _file_ -> clone permission from one file to another
 
 chmod +x -R -> give execute permission to subdirectories
+
+mkdir -m 751 _mydir_ -> create directory with permissions
