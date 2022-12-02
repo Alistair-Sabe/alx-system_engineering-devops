@@ -26,4 +26,6 @@ mkdir -m 751 _mydir_ -> create directory with permissions
 
 chown :school _file_ -> change group owner
 
-chown _user_:_group_ -> change owner and group owner
+chown -R _user_:_group_ . -> change owner and group owner
+
+chown -h _owner_:_group_ -> change owner and group for symbolic link file
