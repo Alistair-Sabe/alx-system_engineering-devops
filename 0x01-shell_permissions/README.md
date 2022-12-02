@@ -29,3 +29,5 @@ chown :school _file_ -> change group owner
 chown -R _user_:_group_ . -> change owner and group owner
 
 chown -h _owner_:_group_ -> change owner and group for symbolic link file
+
+chown --from=_oldOwner_ _newOwner_ _fileName_
