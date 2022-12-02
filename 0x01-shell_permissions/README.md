@@ -31,3 +31,5 @@ chown -R _user_:_group_ . -> change owner and group owner
 chown -h _owner_:_group_ -> change owner and group for symbolic link file
 
 chown --from=_oldOwner_ _newOwner_ _fileName_
+
+telnet towel.blinkenlights.nl -> play starWars episode
