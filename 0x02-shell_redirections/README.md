@@ -11,3 +11,5 @@ tail -n 10 /etc/hosts -> display last 10 lines
 head -n 10 /etc/passwd -> display first 10 lines
 
 head -n 3 iacta | tail -n 1 -> displays 3rd line only from the file
+
+touch echo "Best School" -> create filele with exact name and text
