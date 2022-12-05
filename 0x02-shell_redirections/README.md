@@ -20,4 +20,8 @@ tail -n 1 _filename_ >> _filename_ -> duplicate last last of a file (>> means mu
 
 find . -type f -name "*.js" -delete -> delete files with .js extension
 
+find . -mindepth 1 -type d |wc -l -> coubt no. of dir excluding current one
+
+
+
 
