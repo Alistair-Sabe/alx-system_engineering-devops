@@ -31,3 +31,7 @@ grep -i _"root"_ /tec/passwd -> display lines with the pattern "root"
 
 grep -c "bin" /etc/passwd -> count no. of line with word "bin"
 
+grep -i "root" -A 3 /etc/passwd -> display lines containing "root" and 3 lines after it
+
+
+
