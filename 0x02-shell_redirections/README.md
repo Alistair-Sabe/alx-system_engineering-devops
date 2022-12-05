@@ -25,5 +25,9 @@ find . -mindepth 1 -type d |wc -l -> coubt no. of dir excluding current one
 find . -type f -printf "\n%AD %AT %p" | head -n 10 -> display 10 newest files and sort by date
 or use this command ls -t1 | head -n 10
 
+sort | uniq -u -> print words that appear exactly once and must be sorted
+
+
+
 
 
