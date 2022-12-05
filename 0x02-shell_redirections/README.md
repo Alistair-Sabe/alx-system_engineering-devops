@@ -12,4 +12,8 @@ head -n 10 /etc/passwd -> display first 10 lines
 
 head -n 3 iacta | tail -n 1 -> displays 3rd line only from the file
 
-touch echo "Best School" -> create filele with exact name and text
+echo "Best School" -> create file with exact name
+
+ls -la > ls_cwd_content -> write into ls_cwd the results of ls -la
+
+
