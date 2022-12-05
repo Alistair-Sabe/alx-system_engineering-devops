@@ -29,5 +29,5 @@ sort | uniq -u -> print words that appear exactly once and must be sorted
 
 grep -i _"root"_ /tec/passwd -> display lines with the pattern "root"
 
-
+grep -c "bin" /etc/passwd -> count no. of line with word "bin"
 
