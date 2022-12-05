@@ -16,6 +16,6 @@ echo "Best School" -> create file with exact name
 
 ls -la > ls_cwd_content -> write into ls_cwd the results of ls -la
 
-tail -n 1 -> duplicate last last of a file
+tail -n 1 _filename_ >> _filename_ -> duplicate last last of a file (>> means must not overwrite if it exist
 
 
