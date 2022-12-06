@@ -10,4 +10,6 @@ printenv -> list environment variables
 
 set -> lists all local variables and environment variables, and functions
 
+_name_="_value_" -> create local variable
+
 
