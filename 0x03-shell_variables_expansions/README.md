@@ -4,4 +4,6 @@ echo "Hello $USER" -> prints Hello _currentUser_
 
 export PATH=$PATH:/action -> add directory at end of PATH
 
+echo $PATH | tr":"\n | wc -l -> count no. of directories in PATH
+
 
