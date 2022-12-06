@@ -45,5 +45,5 @@ rev -> reverse
 
 cat /etc/passwd | sort -> displays all users and their home directories, sorted by users
 
-
+find . -empty -printf "%f\n" -> finds all empty files and directories in the current directory and all sub-directories
 
