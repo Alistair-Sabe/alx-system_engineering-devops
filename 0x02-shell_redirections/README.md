@@ -37,5 +37,7 @@ grep -v "bin" /etc/bin/ -> display lines not containing "bin"
 
 grep -i "^[a-z]" /etc/ssh/sshd_config -> display all line starting with a letter including capitals
 
+tr "A" "c" | tr "Z" "e" -> replace these characters with these other characters
+
 
 
