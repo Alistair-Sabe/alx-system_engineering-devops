@@ -18,4 +18,6 @@ echo $((128 + $TRUEKNOWLEDE)) -> add 128 to stored variable
 
 echo $((POWER/DIVIDE)) -> _var1_ divide by _var2_
 
+echo $((BREATH^LOVE)) -> _var1_ to the power _var2_
+
 
