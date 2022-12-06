@@ -33,5 +33,5 @@ grep -c "bin" /etc/passwd -> count no. of line with word "bin"
 
 grep -i "root" -A 3 /etc/passwd -> display lines containing "root" and 3 lines after it
 
-
+grep -v "bin" /etc/bin/ -> display lines not containing "bin"
 
