@@ -39,5 +39,7 @@ grep -i "^[a-z]" /etc/ssh/sshd_config -> display all line starting with a letter
 
 tr "A" "c" | tr "Z" "e" -> replace these characters with these other characters
 
+tr -d "cC" -> delete these characters
+
 
 
