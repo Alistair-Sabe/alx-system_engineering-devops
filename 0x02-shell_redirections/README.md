@@ -35,3 +35,7 @@ grep -i "root" -A 3 /etc/passwd -> display lines containing "root" and 3 lines a
 
 grep -v "bin" /etc/bin/ -> display lines not containing "bin"
 
+grep -i "^[a-z]" /etc/ssh/sshd_config -> display all line starting with a letter including capitals
+
+
+
