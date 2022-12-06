@@ -43,5 +43,7 @@ tr -d "cC" -> delete these characters
 
 rev -> reverse
 
+cat /etc/passwd | sort -> displays all users and their home directories, sorted by users
+
 
 
