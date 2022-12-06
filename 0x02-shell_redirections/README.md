@@ -41,5 +41,7 @@ tr "A" "c" | tr "Z" "e" -> replace these characters with these other characters
 
 tr -d "cC" -> delete these characters
 
+rev -> reverse
+
 
 
