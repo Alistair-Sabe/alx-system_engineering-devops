@@ -22,6 +22,6 @@ echo $((BREATH**LOVE)) -> _var1_ to the power _var2_
 
 echo $((2#$BINARY) -> convert BINARY which is in base2 to base10
 
-echo {a..z}{a..z}"\n" |grep -v oo -> script that prints all possible combinations of two letters, except oo
+echo {a..z}{a..z} | tr ' ' '\n' |grep -v oo -> script that prints all possible combinations of two letters, except oo
 
 
