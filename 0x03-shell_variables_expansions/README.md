@@ -26,6 +26,6 @@ echo {a..z}{a..z} | tr ' ' '\n' |grep -v oo -> script that prints all possible c
 
 printf "%.2f\n" $NUM -> print number to 2 decimal places
 
-echo printf '%x\n'$DECIMAL -> converts a number from base 10 to base 16
+printf '%x\n' $DECIMAL -> converts a number from base 10 to base 16
 
 
