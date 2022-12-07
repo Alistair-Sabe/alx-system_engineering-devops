@@ -20,4 +20,6 @@ echo $((POWER/DIVIDE)) -> _var1_ divide by _var2_
 
 echo $((BREATH**LOVE)) -> _var1_ to the power _var2_
 
+echo $((2#$BINARY) -> convert BINARY which is in base2 to base10
+
 
