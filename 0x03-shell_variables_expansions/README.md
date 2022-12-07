@@ -24,4 +24,6 @@ echo $((2#$BINARY) -> convert BINARY which is in base2 to base10
 
 echo {a..z}{a..z} | tr ' ' '\n' |grep -v oo -> script that prints all possible combinations of two letters, except oo
 
+printf "%.2f \n" $NUM -> print number to 2 decimal places
+
 
