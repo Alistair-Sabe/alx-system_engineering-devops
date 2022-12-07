@@ -30,4 +30,6 @@ printf '%x\n' $DECIMAL -> converts a number from base 10 to base 16
 
 tr 'A-Za-z' 'N-ZA-Mn-za-m' -> script that encodes and decodes text using the rot13 encryption
 
+paste - - | cut -f1 -> prints every other line from the input, starting with the first line
+
 
